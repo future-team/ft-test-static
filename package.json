@@ -1,10 +1,10 @@
 {
   "name": "ft-test-static",
-  "version": "0.0.1",
+  "version": "0.0.32",
   "description": "测试 无意义",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node scripts.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/future-team/ft-test-static/issues"
   },
-  "homepage": "https://github.com/future-team/ft-test-static#readme"
+  "homepage": "https://github.com/future-team/ft-test-static#readme",
+  "dependencies": {
+    "ft-test-static": "^0.0.32",
+    "superagent": "^3.5.2"
+  }
 }
