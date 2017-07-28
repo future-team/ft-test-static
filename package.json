@@ -1,6 +1,6 @@
 {
   "name": "ft-test-static",
-  "version": "0.0.32",
+  "version": "0.0.41",
   "description": "测试 无意义",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/future-team/ft-test-static#readme",
   "dependencies": {
-    "ft-test-static": "^0.0.32",
+    "pmlogger": "^0.1.2",
     "superagent": "^3.5.2"
   }
 }
