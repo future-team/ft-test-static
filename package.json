@@ -1,10 +1,10 @@
 {
   "name": "ft-test-static",
-  "version": "0.0.41",
+  "version": "0.0.5",
   "description": "测试 无意义",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node scripts.js"
+    "postinstall": "node ./node_modules/pmlogger/lib/ModuleReoprt.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/future-team/ft-test-static#readme",
   "dependencies": {
-    "pmlogger": "^0.1.2",
+    "pmlogger": "^1.0.0",
     "superagent": "^3.5.2"
   }
 }
